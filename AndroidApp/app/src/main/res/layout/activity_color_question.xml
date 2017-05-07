@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.parth.imahe.Color_question">
+
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:rowCount="3"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:layout_weight="1"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/black"
+                android:id="@+id/firstimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/firstckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/grey"
+                android:id="@+id/secondimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/secondckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/white"
+                android:id="@+id/thirdimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/thirdckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/brown"
+                android:id="@+id/fourthimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/fourthckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/red"
+                android:id="@+id/fifthimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/fifthckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/yellow"
+                android:id="@+id/sixthimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/sixthckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/green"
+                android:id="@+id/seventhimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/seventhckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/blue"
+                android:id="@+id/eightimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/eightckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="125sp"
+            android:layout_width="100sp"
+            android:orientation="vertical">
+            <ImageView
+                android:src="@drawable/orange"
+                android:id="@+id/nineimage"
+                android:layout_weight="1"
+                android:layout_height="100sp"
+                android:layout_width="100sp"
+
+                />
+            <CheckBox
+                android:onClick="Okay"
+                android:layout_gravity="center"
+                android:id="@+id/nineckb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+
+    <Button
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/ok"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

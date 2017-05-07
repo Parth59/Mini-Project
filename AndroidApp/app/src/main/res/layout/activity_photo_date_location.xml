@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Confirm Location and Date"
+        android:id="@+id/textView1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Please Confirm where and when you took the photograph."
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView1"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="LOCATION"
+            android:id="@+id/textView3"
+
+            android:layout_above="@+id/button3"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="155dp" />
+
+
+    <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="DATE"
+            android:id="@+id/textView4"
+
+            android:layout_above="@+id/button3"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="100dp" />
+
+    <EditText
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:hint="DD/MM/YY"
+        android:id="@+id/editText2"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10sp"
+        />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick"
+        android:id="@+id/button4"
+        android:layout_alignBottom="@+id/editText2"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IDENTIFY>"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="220sp"
+        android:layout_height="160sp"
+        android:id="@+id/imageView"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView2"
+        android:layout_above="@+id/mspinner" />
+
+    <Spinner
+        android:layout_width="230sp"
+        android:layout_height="50sp"
+        android:id="@+id/mspinner"
+        android:layout_alignEnd="@+id/editText2"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_above="@+id/button4" />
+
+
+</RelativeLayout>
